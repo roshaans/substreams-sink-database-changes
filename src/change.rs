@@ -30,11 +30,9 @@ macro_rules! impl_as_string_via_to_string {
 impl_as_string_via_to_string!(i8);
 impl_as_string_via_to_string!(i16);
 impl_as_string_via_to_string!(i32);
-impl_as_string_via_to_string!(i64);
 impl_as_string_via_to_string!(u8);
 impl_as_string_via_to_string!(u16);
 impl_as_string_via_to_string!(u32);
-impl_as_string_via_to_string!(u64);
 impl_as_string_via_to_string!(String);
 impl_as_string_via_to_string!(&String);
 impl_as_string_via_to_string!(&str);
