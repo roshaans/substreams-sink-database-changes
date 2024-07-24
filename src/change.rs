@@ -3,7 +3,7 @@ use std::str;
 use substreams::pb::substreams::store_delta::Operation;
 use substreams::scalar::{BigDecimal, BigInt};
 use substreams::store::{
-    DeltaBigDecimal, DeltaBigInt, DeltaBool, DeltaBytes, DeltaInt32, DeltaInt64, DeltaString,
+    DeltaBigDecimal, DeltaBigInt, DeltaBool, DeltaBytes, DeltaInt32, DeltaString,
 };
 use substreams::Hex;
 
@@ -149,7 +149,6 @@ macro_rules! impl_to_field_from_delta_via_ref {
 }
 
 impl_to_field_from_delta_via_move!(&DeltaInt32);
-impl_to_field_from_delta_via_move!(&DeltaInt64);
 impl_to_field_from_delta_via_ref!(&DeltaBigDecimal);
 impl_to_field_from_delta_via_ref!(&DeltaBigInt);
 impl_to_field_from_delta_via_move!(&DeltaBool);
