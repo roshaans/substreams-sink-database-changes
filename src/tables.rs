@@ -298,6 +298,8 @@ impl_to_database_value_proxy_to_string!(i64);
 impl_to_database_value_proxy_to_string!(u8);
 impl_to_database_value_proxy_to_string!(u16);
 impl_to_database_value_proxy_to_string!(u32);
+impl_to_database_value_proxy_to_string!(f32);
+impl_to_database_value_proxy_to_string!(f64);
 impl_to_database_value_proxy_to_string!(u64);
 impl_to_database_value_proxy_to_string!(bool);
 impl_to_database_value_proxy_to_string!(::prost_types::Timestamp);
